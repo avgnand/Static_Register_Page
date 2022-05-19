@@ -35,14 +35,33 @@ nav a:hover {
     width: 34vw;
 }
 
+#register-form button {
+    font-family: 'Syne Mono', monospace, sans-serif;
+    font-size: large;
+    color: whitesmoke;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 0.2em;
+    width: 45%;
+    padding: 1em;
+}
+
+#register-form button:hover {
+    cursor: pointer;
+    background-color: darkslateblue;
+}
+
 #img-box {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 0.5em;
     margin: 1em;
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: rgba(55,20,5,0.4);
 }
 
 input:hover, img:hover {
-    border-bottom: 0.2em solid black;
+    box-shadow: 0.2em 0.2em 0.4em black;
 }
