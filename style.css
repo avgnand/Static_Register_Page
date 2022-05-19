@@ -1,0 +1,48 @@
+html {
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+    height: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+#form-box {
+    display: flex;
+    justify-content: center;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    width: 34vw;
+}
+
+#img-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5em;
+    margin: 1em;
+}
+
+input:hover, img:hover {
+    border-bottom: 0.2em solid black;
+}
